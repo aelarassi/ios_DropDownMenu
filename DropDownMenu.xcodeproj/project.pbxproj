@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065D050CEB3F1C21F9E045F7 /* Pods_DropDownMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CFB2A4DE53D92B63BBD014 /* Pods_DropDownMenu.framework */; };
 		338FABF6284FB52A00EA686A /* DropDownMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FABF5284FB52A00EA686A /* DropDownMenuApp.swift */; };
 		338FABF8284FB52A00EA686A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FABF7284FB52A00EA686A /* ContentView.swift */; };
 		338FABFA284FB52B00EA686A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338FABF9284FB52B00EA686A /* Assets.xcassets */; };
 		338FABFD284FB52B00EA686A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338FABFC284FB52B00EA686A /* Preview Assets.xcassets */; };
+		338FAC092850AE5A00EA686A /* CustomDropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FAC072850AE5A00EA686A /* CustomDropDownCell.swift */; };
+		338FAC0A2850AE5A00EA686A /* CustomDropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338FAC082850AE5A00EA686A /* CustomDropDownCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		338FABF2284FB52A00EA686A /* DropDownMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropDownMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C954A938CDB2FC1278BFC1 /* Pods-DropDownMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu.release.xcconfig"; path = "Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu.release.xcconfig"; sourceTree = "<group>"; };
+		338FABF2284FB52A00EA686A /* Drop Down.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drop Down.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		338FABF5284FB52A00EA686A /* DropDownMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenuApp.swift; sourceTree = "<group>"; };
 		338FABF7284FB52A00EA686A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		338FABF9284FB52B00EA686A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338FABFC284FB52B00EA686A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		338FAC072850AE5A00EA686A /* CustomDropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDropDownCell.swift; sourceTree = "<group>"; };
+		338FAC082850AE5A00EA686A /* CustomDropDownCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomDropDownCell.xib; sourceTree = "<group>"; };
+		C4CFB2A4DE53D92B63BBD014 /* Pods_DropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D875355F5CA461730E9279 /* Pods-DropDownMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropDownMenu.debug.xcconfig"; path = "Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065D050CEB3F1C21F9E045F7 /* Pods_DropDownMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,13 +46,15 @@
 			children = (
 				338FABF4284FB52A00EA686A /* DropDownMenu */,
 				338FABF3284FB52A00EA686A /* Products */,
+				C2A0ACA41AC3DE6AE01ACCF3 /* Pods */,
+				898048B92411A7F06EE61B33 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		338FABF3284FB52A00EA686A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				338FABF2284FB52A00EA686A /* DropDownMenu.app */,
+				338FABF2284FB52A00EA686A /* Drop Down.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +64,8 @@
 			children = (
 				338FABF5284FB52A00EA686A /* DropDownMenuApp.swift */,
 				338FABF7284FB52A00EA686A /* ContentView.swift */,
+				338FAC072850AE5A00EA686A /* CustomDropDownCell.swift */,
+				338FAC082850AE5A00EA686A /* CustomDropDownCell.xib */,
 				338FABF9284FB52B00EA686A /* Assets.xcassets */,
 				338FABFB284FB52B00EA686A /* Preview Content */,
 			);
@@ -67,6 +80,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		898048B92411A7F06EE61B33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4CFB2A4DE53D92B63BBD014 /* Pods_DropDownMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2A0ACA41AC3DE6AE01ACCF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D875355F5CA461730E9279 /* Pods-DropDownMenu.debug.xcconfig */,
+				27C954A938CDB2FC1278BFC1 /* Pods-DropDownMenu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 338FAC00284FB52B00EA686A /* Build configuration list for PBXNativeTarget "DropDownMenu" */;
 			buildPhases = (
+				3A4EE4BE0B703446219452F0 /* [CP] Check Pods Manifest.lock */,
 				338FABEE284FB52A00EA686A /* Sources */,
 				338FABEF284FB52A00EA686A /* Frameworks */,
 				338FABF0284FB52A00EA686A /* Resources */,
+				22CCECF670EFD9E68095A3B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +116,7 @@
 			);
 			name = DropDownMenu;
 			productName = DropDownMenu;
-			productReference = 338FABF2284FB52A00EA686A /* DropDownMenu.app */;
+			productReference = 338FABF2284FB52A00EA686A /* Drop Down.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,10 +159,53 @@
 			files = (
 				338FABFD284FB52B00EA686A /* Preview Assets.xcassets in Resources */,
 				338FABFA284FB52B00EA686A /* Assets.xcassets in Resources */,
+				338FAC0A2850AE5A00EA686A /* CustomDropDownCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22CCECF670EFD9E68095A3B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DropDownMenu/Pods-DropDownMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A4EE4BE0B703446219452F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DropDownMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		338FABEE284FB52A00EA686A /* Sources */ = {
@@ -138,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				338FABF8284FB52A00EA686A /* ContentView.swift in Sources */,
+				338FAC092850AE5A00EA686A /* CustomDropDownCell.swift in Sources */,
 				338FABF6284FB52A00EA686A /* DropDownMenuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,12 +337,14 @@
 		};
 		338FAC01284FB52B00EA686A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D875355F5CA461730E9279 /* Pods-DropDownMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DropDownMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,21 +358,23 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aelarassi.demopushnotifs.DropDownMenu;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Drop Down";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		338FAC02284FB52B00EA686A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27C954A938CDB2FC1278BFC1 /* Pods-DropDownMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DropDownMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -308,10 +388,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aelarassi.demopushnotifs.DropDownMenu;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Drop Down";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
